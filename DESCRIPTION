@@ -1,0 +1,29 @@
+Package: riskRegressionLight
+Type: Package
+Title: Light version of the package riskRegression
+Version: 0.1
+Authors@R: c(person("Brice", "Ozenne", role = "cre", email = "broz@sund.ku.dk", comment = c(ORCID = "0000-0001-9694-2956")))
+Depends:
+    R (>= 3.5.0)
+Imports:
+    data.table (>= 1.10.4),
+    ggplot2 (>= 2.1.0),
+    prodlim (>= 1.6.1),
+    doParallel,
+    stats,
+    boot,
+    mets,
+    graphics,
+    survival (>= 2.40.1),
+    lava (>= 1.4.7),
+    foreach,
+    parallel,
+    Rcpp,
+    rms (>= 5.0-0)
+LinkingTo: Rcpp, RcppArmadillo
+Maintainer: Brice Ozenne <brice.mh.ozenne@gmail.com>
+Description: Light version fo the package riskRegression. Should be easier and faster to install.
+License: GPL (>= 2)
+NeedsCompilation: yes
+RoxygenNote: 6.1.1
+
